@@ -1,0 +1,134 @@
+<header class="header-hero">
+  <div class="container">
+    <div class="header container">
+      <nav class="nav anchor">
+        <a href="index.html" class="logo link">
+          <img src="./images/logo.png" alt="logo">
+        </a>
+        <ul class="nav__list list">
+          <li class="nav__item">
+            <a class="nav__link nav__link--current link"  href="./index.html">Home</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link link js-scroll"  href="#made">About us</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link link js-scroll"  href="#made">How it’s made?</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link link js-scroll"  href="#product">Our products</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link link js-scroll"  href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="burger-btn" type="button" data-menu-button>
+        <svg class="burger-icon" Width="20" Height="12">
+          <use href="./images/sprite.svg#icon-Burger"></use>
+        </svg>
+      </button>
+      <button class="modal__btn" data-modal-open type="button">Buy now 
+        <svg class="about__btn-arrow" Width="4.43" Height="8">
+          <use href="./images/sprite.svg#icon-Key-right"></use>
+        </svg>
+      </button>
+    </div>
+    <div class="hero container">
+      <div class="hero__side">
+        <div class="hero__left-side anchor">
+          <h1 class="hero__title">ice cream made with <span class="hero__title-red">passion</span></h1>
+          <ul class="hero__nav-list list">
+            <li class="hero__nav-item">
+              <a class="hero__nav-link link js-scroll"  href="#product">Products</a>
+            </li>
+            <li class="hero__nav-item">
+              <a class="hero__nav-link hero__nav-link-white link js-scroll"  href="#made">How it’s made?</a>
+            </li>
+          </ul>       
+        </div>
+        <div class="hero__right-side">
+          <ul class="hero__distributes list">
+            <li class="distributes">
+              <p class="distributes__text">
+                16 <span class="point">cafes</span></p>
+            </li>
+            <li class="distributes">
+              <p class="distributes__text">
+                23 <span class="point">food trucks</span></p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="about-milk">
+        <div class="about-milk__picture">
+        <picture>
+          <source srcset="./images/hh/desktop/bioeco.png 1x,
+                          ./images/hh/desktop/bioeco@2x.png 2x"
+                          media="(min-width: 1280px)"/>
+          <source srcset="./images/hh/tablet/bioeco.png 1x,
+                          ./images/hh/tablet/bioeco@2x.png 2x"
+                          media="(min-width: 768px)"/>
+          <img src="./images/hh/tablet/bioeco.png" alt="Biomilk" />
+        </picture>
+        </div>
+        <div class="milk-text">
+          <p class="about-milk__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
+        <button type="button" class="hh__button"></button>
+        </div>
+      </div>
+      <div class="hero__ice-cream animate__jackInTheBox">
+        <picture>
+          <source srcset="./images/hh/desktop/icecream.png 1x,
+                          ./images/hh/desktop/icecream@2x.png 2x"
+                          media="(min-width: 1280px)"/>
+          <source srcset="./images/hh/tablet/icecream.png 1x,
+                          ./images/hh/tablet/icecream@2x.png 2x"
+                          media="(min-width: 768px)"/>
+          <source srcset="./images/hh/mobile/icecream.png 1x,
+                          ./images/hh/mobile/icecream@2x.png 2x"
+                          media="(min-width: 320px)"/>
+          <img src="./images/hh/mobile/icecream.png" alt="Biomilk" />
+        </picture>
+      </div>
+      <div class="hero__girl">
+        <picture>
+          <source srcset="./images/hh/desktop/tasty.png 1x,
+                          ./images/hh/desktop/tasty@2x.png 2x" media="(min-width: 1280px)" />
+          <source srcset="./images/hh/tablet/tasty.png 1x,
+                          ./images/hh/tablet/tasty@2x.png 2x" media="(min-width: 768px)" />
+          <img src="./images/hh/tablet/tasty.png" alt="testy" />
+        </picture>
+      </div>
+    </div>
+    <div class="mobile-menu anchor" data-menu>
+      <button class="mobile-menu__close-btn" type="button" data-menu-close>
+          <svg class="mobile-menu__close-icon" Width="4.43" Height="8">
+              <use href="./images/sprite.svg#icon-close"></use>
+          </svg>
+      </button>
+      <button class="modal__btn burger-order-btn" type="button" data-modal2-open>Buy now 
+        <svg class="about__btn-arrow" Width="4.43" Height="8">
+          <use href="./images/sprite.svg#icon-Key-right"></use>
+        </svg>
+      </button>
+      <ul class="mobile-menu__list list">
+        <li class="mobile-menu__item">
+          <a class="mobile-menu__link link js-scroll" data-menu-close1 href="index.html">Home</a>
+        </li>
+        <li class="mobile-menu__item">
+          <a class="mobile-menu__link link  js-scroll" data-menu-close2  href="#made">About us</a>
+        </li>
+        <li class="mobile-menu__item">
+          <a class="mobile-menu__link link  js-scroll" data-menu-close3 href="#made">How it’s made?</a>
+        </li>
+        <li class="mobile-menu__item">
+          <a class="mobile-menu__link link  js-scroll" data-menu-close4 href="#product">Our products</a>
+        </li>
+        <li class="mobile-menu__item">
+          <a class="mobile-menu__link link  js-scroll" data-menu-close5 href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</header>

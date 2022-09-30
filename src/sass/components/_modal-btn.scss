@@ -1,0 +1,40 @@
+.modal__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 160px;
+  height: 44px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.29;
+  background: $section-bg-color;
+  color: $accent-color;
+  border-style: none;
+  border-radius: 22px;
+  margin-left: 30px;
+  cursor: pointer;
+  transition: background-color $transition-duration $transition-function;
+  transition: transform $transition-duration $transition-function;
+  z-index: 10;
+
+  &:focus,
+  &:hover {
+    background-color: #ecebeb;
+    transform: scale(1.1);
+  }
+
+  @media screen and (min-width: 1280px) {
+    margin-left: 110px;
+  }
+}
+
+@media (max-width: 767px) {
+  .header .modal__btn {
+    display: none;
+  }
+}
+.mobile-menu .modal__btn {
+  width: 100%;
+  margin-bottom: 32px;
+  margin-left: 0;
+}
